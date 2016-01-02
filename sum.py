@@ -1,3 +1,10 @@
+"""Write a python program that takes a list of money and sums them correctly.
+1/2/3
+2/18/9
+should sum to 4/1/0
+"""
+
+
 #!/usr/bin/python
 
 
