@@ -1,6 +1,9 @@
 #! /usr/bin/python
 
-#Question 1
+"""Question 1
+[Say] Write program that takes numbers and writes out their proper names.  It can stop with 1000(i.e. 999 is nine hundred
+ninety nine, 42 is forty two.)  Numbers that are out of range (1000 and higher) can just be echoed as numbers.
+"""
 
 one = ["","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
 
@@ -32,7 +35,9 @@ if intNum < 1000:
     print Say(inputnum)
 
 
-#Question 2
+"""Question 2
+[unSay] Write a program that takes a written description of a number, (forty-two or forty two) and returns the integer value of it.
+"""
 
 three = ["","one","two","three","four","five","six","seven","eight","nine","ten"]
 
@@ -67,7 +72,10 @@ def unSay(strnum):
 print unSay(inputnum2)
 
 
-#Question 3
+"""Question 3
+[Math] Use the Say and unSay programs to do written math.  Handle addition, subtraction and multiplication.  Your program
+should take one plus one and return two or six times seven and return forty-two(or forty two).
+"""
 
 inputnum3 = raw_input("Please type a written description of addition, subtraction and multiplication.  Please using plus, subtract, and times. And number should be one digit.   For example : one plus one or two subtract one : \n")
 
