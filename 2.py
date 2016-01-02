@@ -1,3 +1,10 @@
+"""Cato and Junius Brutus are using the cipher to encrypt their communications.  In Latin as well as that vulgar Germanic 
+language English the letter 'e' is the most common letter.  't' is the second most common.  Write a python program to count
+the numbers of each letter in the message.  (i.e. how common is each symbol) then use that to find the key for the message.
+Use the file ceaser1.txt for input.
+"""
+
+
 #!/usr/bin/python
 
 a = open('ceaser1.txt')
