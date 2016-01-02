@@ -1,3 +1,9 @@
+"""Make it do subtraction
+2/18/9
+-1/2/3 1/2
+should be 1/16/5 1/2
+"""
+
 #!/usr/bin/python
 
 data1 = '2/18/9'
